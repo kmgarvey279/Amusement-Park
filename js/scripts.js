@@ -1,12 +1,12 @@
-$(document).ready(function() {
+$().ready(function() {
   var height = parseInt(prompt("What is your height in inches?"));
 
   if (height > 80) {
-    $("#nolimit").show();
+    $("#nolimit").addClass("highlight");
   } else if (height < 50) {
-    $("#smallrides").show();
+    $("#smallrides").addClass("highlight");
   } else {
-    $("#rides").show();
+    $("#rides").addClass("highlight")
 
   }
 });

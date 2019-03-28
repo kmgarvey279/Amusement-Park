@@ -1,3 +1,6 @@
-#nolimit, #smallrides, #rides {
+/*#nolimit, #smallrides, #rides {
   display: none;
+}*/
+.highlight{
+  background-color: yellow;
 }
